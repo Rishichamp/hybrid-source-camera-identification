@@ -6,6 +6,63 @@ scratch, fused via a logistic-regression meta-classifier. Originally a
 B.Tech final-year project rebuilt from scratch into a reproducible,
 tested, honestly-benchmarked pipeline.
 
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="Hybrid PRNU + CNN Source Camera Identification">
+</p>
+
+<h1 align="center">Hybrid PRNU + CNN Source Camera Identification</h1>
+
+<p align="center">
+A hybrid deep learning framework that combines Wavelet-based PRNU extraction with CNN feature learning for robust source camera identification in digital image forensics.
+</p>
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?logo=numpy)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)
+![License](https://img.shields.io/badge/License-MIT-success)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions)
+
+</p>
+
+---
+
+## Overview
+
+This repository implements a **Hybrid PRNU + CNN** framework for **source camera identification**, combining classical **Photo Response Non-Uniformity (PRNU)** fingerprints with deep convolutional neural network features. The fused representation significantly improves classification accuracy compared with either approach individually, making the system suitable for digital image forensics and camera attribution research.
+
+---
+
+## Architecture
+
+<p align="center">
+  <img src="assets/architecture.png" width="100%" alt="Architecture">
+</p>
+
+---
+
+## Table of Contents
+
+- Overview
+- Results
+- Architecture
+- Project Structure
+- Installation
+- Dataset
+- Training
+- Cross Validation
+- Prediction
+- Demo
+- Development History
+- References
+- License
+
+---
+
 ## Results
 
 Trained and evaluated on a 10-camera-model dataset (Kaggle's "IEEE's
