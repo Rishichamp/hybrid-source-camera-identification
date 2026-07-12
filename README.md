@@ -84,8 +84,10 @@ signal from each branch, not just picking the better one. See
 `reports/results.txt` and `reports/cross_validation.txt` in this repo for
 the full, timestamped, unedited output these numbers came from.
 
-![Confusion matrix](reports/figures/confusion_matrix.png)
-![Training curves](reports/figures/training_curves.png)
+<p align="center">
+<img src="reports/figures/confusion_matrix.png" width="47%">
+<img src="reports/figures/training_curves.png" width="47%">
+</p>
 
 Every number above is reproducible end-to-end from this repo (see
 [Step-by-step guide](#step-by-step-guide)) -- nothing here was hand-tuned
