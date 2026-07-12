@@ -1,0 +1,24 @@
+======================================================================
+Run timestamp: 2026-07-09T16:54:10.698841
+hybrid accuracy: 94.58%
+cnn_only accuracy: 74.17%
+prnu_only accuracy: 80.00%
+
+Classification report:
+                      precision    recall  f1-score   support
+
+            HTC-1-M7       0.96      0.92      0.94        24
+         LG-Nexus-5x       0.78      0.88      0.82        24
+ Motorola-Droid-Maxx       0.91      0.83      0.87        24
+    Motorola-Nexus-6       0.96      1.00      0.98        24
+          Motorola-X       0.88      0.88      0.88        24
+Samsung-Galaxy-Note3       1.00      1.00      1.00        24
+   Samsung-Galaxy-S4       1.00      0.96      0.98        24
+          Sony-NEX-7       1.00      1.00      1.00        24
+           iPhone-4s       1.00      1.00      1.00        24
+            iPhone-6       1.00      1.00      1.00        24
+
+            accuracy                           0.95       240
+           macro avg       0.95      0.95      0.95       240
+        weighted avg       0.95      0.95      0.95       240
+
