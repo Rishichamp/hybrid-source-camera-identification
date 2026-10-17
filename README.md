@@ -166,7 +166,7 @@ CNN-only pipeline that was actually built.
 
 ## Project structure
 
-```
+```bash
 source-camera-id-v2/
 ├── README.md
 ├── CHANGELOG.md
@@ -251,6 +251,7 @@ Model Identification" dataset** (search `sp-society-camera-model
 -identification` on kaggle.com, or `kaggle competitions download -c
 sp-society-camera-model-identification` via the Kaggle CLI once you've
 accepted the competition rules). It's a strong fit for this pipeline:
+
 - **10 distinct camera models, one physical device per model, 275
   full-resolution images/device** (2,750 images total) -- different-*model*
   classification is the easier, better-separated version of this task (the
@@ -270,6 +271,7 @@ accepted the competition rules). It's a strong fit for this pipeline:
 **Don't commit the raw dataset to git.** Even a modest few hundred MB is
 more than a git repo should carry, and GitHub actively discourages large
 repos. `data/raw/` is already gitignored. Instead:
+
 - Keep your locally-prepared dataset local only.
 - Commit `scripts/prepare_camera_dataset.py`, your `saved_models/`
   artifacts, and `reports/` (these are small) -- anyone can reproduce your
@@ -319,6 +321,7 @@ python hybrid_train.py --epochs 40 --batch-size 32 --fingerprint-n 40 --crop-siz
 ```
 
 This prints, at the end:
+
 - the fused hybrid accuracy on the held-out test set,
 - a full classification report + confusion matrix,
 - **diagnostic CNN-only and PRNU-only accuracies**, so you can see exactly
@@ -326,6 +329,7 @@ This prints, at the end:
   your report's "results and analysis" section.
 
 It also **automatically saves**, from this exact run:
+
 - `reports/figures/training_curves.png` -- train/val accuracy & loss vs. epoch
 - `reports/figures/confusion_matrix.png` -- a heatmap, ready to drop into
   a report or slide deck
